@@ -1,6 +1,8 @@
 // Copyright@daidai53 2021
 package main
 
-func main(){
-	
+import "GuierDesignCollection/image-processor/proc"
+
+func main() {
+	proc.ImageProcIns.ReadJpegAndConvertToGrayExample()
 }
